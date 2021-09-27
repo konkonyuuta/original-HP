@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.top1_all{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background: url(../img/top2.jpeg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 480px){
+    .news_list {
+        display: block;
+    }
+      
+    .news_item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10%;
+        border: solid 1px #ccc;
+    }
+}

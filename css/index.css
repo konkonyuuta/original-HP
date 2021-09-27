@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 480px){
+    .top_img img{
+        width: 70%;
+    }
+
+    .service_item{
+        width: 100%;
+        margin: 0 0 10%;
+        height: auto;
+    }
+
+    .service_inner_txt{
+        left: 46%;
+    }
+
+    .btn{
+        background: #000;
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about_list{
+        display: block;
+    }
+
+    .about_item{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10%;
+        border: solid 1px #ccc;
+    }
+
+    .about_sub_ttl{
+        padding-top: 55px;
+    }
+
+    .news_list{
+        display: block;
+    }
+
+    .news_item{
+        width:100%;
+        height: auto;
+        margin-bottom: 10%;
+        border: solid 1px #ccc;
+    }
+}
